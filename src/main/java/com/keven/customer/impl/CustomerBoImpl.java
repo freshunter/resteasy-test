@@ -1,6 +1,6 @@
-package com.mkyong.customer.impl;
+package com.keven.customer.impl;
 
-import com.mkyong.customer.CustomerBo;
+import com.keven.customer.CustomerBo;
 
 public class CustomerBoImpl implements CustomerBo {
 

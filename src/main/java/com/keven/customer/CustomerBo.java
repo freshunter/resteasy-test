@@ -1,4 +1,4 @@
-package com.mkyong.customer;
+package com.keven.customer;
 
 public interface CustomerBo{
 	

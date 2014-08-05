@@ -1,11 +1,14 @@
-package com.mkyong.rest;
+package com.keven.rest;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
-import com.mkyong.context.SpringApplicationContext;
-import com.mkyong.customer.CustomerBo;
+import javax.ws.rs.ext.Provider;
 
+import com.keven.context.SpringApplicationContext;
+import com.keven.customer.CustomerBo;
+
+//@Provider
 @Path("/customer")
 public class PrintService {
 
