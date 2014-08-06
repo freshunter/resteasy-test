@@ -5,24 +5,23 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 import com.keven.customer.CustomerBo;
 
-@Component
-@Path("/customer")
-public class PrintService {
+//add Component, it will autowired the attribute and auto scan the rest class.
+//@Component
+@Path("/antestwoc")
+public class PrintServiceAnWithoutComponent {
 
 	@Autowired
-	ApplicationContext applicationContext;
-	
+	CustomerBo customerBo;
 
 	@GET
-	@Path("/print")
+//	@Path("/print")
 	public Response printMessage() {
 
-		CustomerBo customerBo = (CustomerBo) applicationContext.getBean("customerBo");
+//		customerBo = (CustomerBo) SpringApplicationContext.getBean("customerBo");
 		
 		String result = customerBo.getMsg();
 
