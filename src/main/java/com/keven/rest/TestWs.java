@@ -18,7 +18,7 @@ import com.keven.model.OrderEntry;
  */
 
 //@Consumes(MediaType.APPLICATION_JSON)
-@Path("/lmtest")
+@Path("/order")
 public interface TestWs {
 
 
