@@ -17,8 +17,8 @@
 	
 	<properties>
 		<jackson-version>2.2.3</jackson-version>
-		<!-- <resteasy-version>3.0.7.Final</resteasy-version> -->
-		<resteasy-version>2.3.7.final</resteasy-version>
+		<resteasy-version>3.0.7.Final</resteasy-version>
+		<!-- <resteasy-version>2.3.7.final</resteasy-version> -->
 		<httpcomp-version>4.2.5</httpcomp-version>
 		<org.springframework.version>3.2.8.RELEASE</org.springframework.version>
 		<!-- <org.springframework.version>3.0.5.RELEASE</org.springframework.version> -->
